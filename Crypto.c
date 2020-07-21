@@ -5,6 +5,8 @@
 #include <dirent.h>
 #include <unistd.h>
 
+
+// All function prototype... 
 void boot();
 void file_write(char a[100], char b[100]);
 void file_read(char c[100]);
