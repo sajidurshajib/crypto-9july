@@ -6,7 +6,7 @@
 #include <unistd.h>
 
 
-// All function prototype... 
+// All function prototype...
 void boot();
 void file_write(char a[100], char b[100]);
 void file_read(char c[100]);
@@ -15,7 +15,7 @@ int charToNum(char a);
 int random(int a);
 char randomChar();
 void encryption(char str[1000]);
-void decryption(char st[10000]);
+void decryption(char str[10000]);
 
 
 char encrypted[10000]="\0";
